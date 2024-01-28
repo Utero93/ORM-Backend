@@ -1,0 +1,26 @@
+{
+  "name": "orm-backend",
+  "version": "1.0.0",
+  "description": "ORM BACK END ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo: \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Utero93/ORM-Backend.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "ANGEL GONZALEZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Utero93/ORM-Backend/issues"
+  },
+  "homepage": "https://github.com/Utero93/ORM-Backend#readme",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "mysql2": "^3.9.0"
+  }
+}
