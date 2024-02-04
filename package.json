@@ -1,26 +1,28 @@
 {
   "name": "orm-backend",
   "version": "1.0.0",
-  "description": "ORM BACK END ",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo: \"echo \\\"Error: no test specified\\\" && exit 1\""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Utero93/ORM-Backend.git"
+    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
   },
-  "keywords": [
-    "[]"
-  ],
-  "author": "ANGEL GONZALEZ",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Utero93/ORM-Backend/issues"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   },
-  "homepage": "https://github.com/Utero93/ORM-Backend#readme",
   "dependencies": {
-    "inquirer": "^8.2.6",
-    "mysql2": "^3.9.0"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
   }
 }
