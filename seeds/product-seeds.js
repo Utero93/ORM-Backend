@@ -9,20 +9,20 @@ const productData = [
   },
   {
     product_name: 'Running Sneakers',
-    price: 90.0,
-    stock: 25,
+    price: 95.0,
+    stock: 20,
     category_id: 5,
   },
   {
     product_name: 'Branded Baseball Hat',
     price: 22.99,
-    stock: 12,
+    stock: 11,
     category_id: 4,
   },
   {
     product_name: 'Top 40 Music Compilation Vinyl Record',
     price: 12.99,
-    stock: 50,
+    stock: 54,
     category_id: 3,
   },
   {
