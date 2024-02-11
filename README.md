@@ -23,6 +23,7 @@ The application prompts the user to select a color and shape, providing text for
 - [Screenshots](#Screenshots)
 - [Demonstration](#Demonstration)
 - [Installation](#Installation)
+- [Running Application](#running-application)
 - [Author](#Author)
 - [Acknowledgments](#Acknowledgments)
 
