@@ -12,7 +12,7 @@ SO THAT my company can compete with other e-commerce companies
 ```
 
 ## Description:
-The application prompts the user to select a color and shape, providing text for the logo, and saves the generated SVG to a `logo.svg` file which contains the results of the users input. 
+A backend system, tailored for e-commerce, leverages Express.js and Sequelize to create, populate, and synchronize development databases. Users can seamlessly interact with the system through GET, POST, PUT, and DELETE routes, enabling efficient data retrieval and manipulation within their database.
 
 ## Table of Contents:
 
