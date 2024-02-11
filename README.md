@@ -44,28 +44,36 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Screenshots:
 
-### Initiate Test
-![Screenshot](./media/Screenshot1.png)
-### Successful Input for Logo
-![Screenshot](./media/Sceenshot2.png)
-### Newly Designed Logo
-![Screenshot](./media/logo.svg)
+### Displaying All Categories
+![POSTMAN 1](./public/GET-Categories.png)
+### Displaying All Products 
+![POSTMAN 2](./public/GET-Products.png)
+### Posting New Category
+![POSTMAN 3](./public/POST-Categories.png)
+### Deleting Tag_Name 
+![POSTMAN 4](./public/DELETE-Tag.png)
+
 
 ## Demonstration: 
 
-![SVG Logo Generator](./media/Usage.gif)
+![ORM-BACKEND](./public/ORM-Demo.gif)
 
 
 ## Installation:
 ```md
 1. Open the cloned repository in any source code editor e.g. Visual Studio Code.
-2. Open integrated terminal on index.js within VS Code.
-3. Input “node index.js” in the command line
-4. Within the command line interface - the user will be prompted with a series of questions - the user will provide a response to each question and proceed.
-5. Once completed a SVG file named "logo.svg" will be created.
-6. At any point, the user may rename the "logo.svg" file to the file name of their choice.
-7. (Optional) Regarding future use, you may alter the text of the questions within the index.js to best suit their needs.
-8. (Optional) The SVG Logo Maker serves as a basic template that doesnt limit any alterations to the files in order to create the best possible "logo.svg" file.
+2. Open integrated terminal on DB Folder within VS Code.
+3. 'npm i' to install the packages needed.
+```
+
+## Running Application
+```md
+1. Log in to your mySQL shell
+2. Run the schema by using command `source ./db/schema;` in your terminal.
+3. Navigate to new terminal using `exit` in MYSQL. 
+4. Populate database by running seed files with command, `npm run seed`.
+5. Start the server with command `node server.js`
+6. Use Postman or a similar technology to Get, Post, Put, and Delete different Categories, Products, and Tags.
 ```
 
 ## Author
